@@ -1,0 +1,12 @@
+# Don't use this right now, it will override the other Host config.
+# Host github.com
+#   AddKeysToAgent yes
+#   UseKeychain yes
+#   IdentityFile ~/.ssh/id_ed25519
+
+Host github.com-cooperkitty
+  Hostname github.com	
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/cooperkey
+  

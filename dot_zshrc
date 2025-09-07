@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+# Adopted from jaredallard/dotfiles
+# Loads ~/.zsh_profile allowing easy hooks for
+# testing the speed of the framework.
+
+source ~/.zsh_profile
