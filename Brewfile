@@ -6,6 +6,8 @@ brew "webp"
 brew "jpeg-xl"
 brew "chezmoi"
 brew "coreutils"
+brew "docker-completion"
+brew "docker"
 brew "dockutil"
 brew "harfbuzz"
 brew "leptonica"
@@ -57,6 +59,22 @@ cask "transcribe"
 cask "visual-studio-code"
 cask "vlc@nightly"
 cask "wireshark-app"
+mas "1Password for Safari", id: 1569813296
+mas "Any File Info", id: 731859284
+mas "ColorSlurp", id: 1287239339
+mas "Culture Concorde", id: 1088330492
+mas "Darkroom", id: 953286746
+mas "File Viewer", id: 495987613
+mas "Flow", id: 1423210932
+mas "GIPHY CAPTURE", id: 668208984
+mas "keymapp", id: 6472865291
+mas "Logic Pro", id: 634148309
+mas "NepTunes", id: 1006739057
+mas "Onigiri", id: 1639917298
+mas "Skitch", id: 425955336
+mas "The Unarchiver", id: 425424353
+mas "TickTick", id: 966085870
+mas "Tomito", id: 1526042938
 vscode "golang.go"
 vscode "grapecity.gc-excelviewer"
 vscode "gruntfuggly.todo-tree"
@@ -86,3 +104,6 @@ vscode "sdras.night-owl"
 vscode "tamasfe.even-better-toml"
 vscode "twxs.cmake"
 vscode "yzhang.markdown-all-in-one"
+go "github.com/go-delve/delve/cmd/dlv"
+go "golang.org/x/tools/gopls"
+go "honnef.co/go/tools/cmd/staticcheck"
