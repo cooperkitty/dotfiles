@@ -14,6 +14,13 @@ LOG_FILE='/Users/'$(logname)'/Desktop/install-log.log'
 exec &> >(tee -a "$LOG_FILE")
 echo "Logging to" $LOG_FILE
 
+# If the script is run with sudo, kill it to prevent issues later on. 
+
+if [[ "$(id -u)" -eq 0 ]]; then
+  echo "Bootstrap cannot be invoked with sudo. Stopping..."
+  exit 1
+fi
+
 # EDIT THIS FIRST!
 COMPUTER_NAME=yuuko # selamat pagi
 
