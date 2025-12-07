@@ -14,4 +14,5 @@ alias v="nvim"
 # if you use this command, be aware that it isn't a 'true' copy.
 wavtoaiff() {
     ffmpeg -i "$1" -ar 44100 -acodec pcm_s16be -c:v copy "${1%%.*}".aiff
+    rm *.opus
 }
