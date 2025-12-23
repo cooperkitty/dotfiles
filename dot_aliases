@@ -6,6 +6,7 @@ alias tf="terraform"
 alias zsh-config="vi ~/.zshrc"
 alias vi="nvim"
 alias v="nvim"
+alias pod="podman"
 
 # Converts WAV to AIFF. This command specifically converts any provided WAV
 # file into 44.1/16 (CD quality) PCM files. Without these flags, ffmpeg will
