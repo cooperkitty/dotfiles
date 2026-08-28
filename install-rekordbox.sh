@@ -7,8 +7,8 @@
 # https://rekordbox.com/en/support/faq/v6/#faq-q600141
 
 # Use variables from the URL link. 
-INSTALL_TARGET=Install_rekordbox_6_8_6.pkg
-INSTALL_URL_DATE=20250610145702
+INSTALL_TARGET=Install_rekordbox_6_8_7.pkg
+INSTALL_URL_DATE=20260727162749
 
 install_rekordbox(){
   echo "-> Downloading rekordbox installer"
